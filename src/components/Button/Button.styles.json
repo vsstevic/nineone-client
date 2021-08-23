@@ -1,0 +1,22 @@
+{
+  "layouts": {
+    "base": [
+      "px-4",
+      "py-2",
+      "font-medium",
+      "text-[15px]",
+      "leading-[19px]",
+      "rounded"
+    ]
+  },
+  "variants": {
+    "primary": {
+      "layout": "base",
+      "classes": ["text-gray-50", "bg-primary"]
+    },
+    "secondary": {
+      "layout": "base",
+      "classes": ["text-primary", "bg-white", "shadow"]
+    }
+  }
+}

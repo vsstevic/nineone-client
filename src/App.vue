@@ -1,11 +1,17 @@
 <template>
-  <h1 class="text-3xl text-red-500">Hello World!</h1>
+  <h1 class="text-3xl font-bold text-primary">Hello world!</h1>
+
+  <div class="space-x-4">
+    <Button variant="primary">Join our crew</Button>
+
+    <Button variant="secondary">Testing</Button>
+  </div>
 </template>
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+<script>
+import Button from './components/Button/Button.vue'
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-</style>
+export default {
+  components: { Button },
+}
+</script>
