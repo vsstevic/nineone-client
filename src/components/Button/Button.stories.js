@@ -17,6 +17,13 @@ export default {
         defaultValue: 'primary',
       },
     },
+    layout: {
+      control: {
+        type: 'select',
+        options: Object.keys(styles.layouts),
+        defaultValue: 'base',
+      },
+    },
   },
 }
 
