@@ -1,22 +1,45 @@
 {
-  "layouts": {
-    "base": [
-      "px-4",
-      "py-2",
-      "font-medium",
-      "text-[15px]",
-      "leading-[19px]",
-      "rounded"
-    ]
+  "sizes": {
+    "small": ["px-2", "py-1", "font-medium", "text-tiny", "leading-button"],
+    "base": ["px-4", "py-2", "font-medium", "text-tiny", "leading-button"],
+    "compact": ["px-6", "py-4", "font-medium", "text-tiny", "leading-button"]
+  },
+  "shapes": {
+    "rounded": ["rounded"],
+    "pill": ["rounded-full"]
   },
   "variants": {
-    "primary": {
-      "layout": "base",
-      "classes": ["text-gray-50", "bg-primary"]
-    },
-    "secondary": {
-      "layout": "base",
-      "classes": ["text-primary", "bg-white", "shadow"]
-    }
-  }
+    "primary": [
+      "text-gray-50",
+      "bg-teal-300",
+      "hover:bg-teal-200",
+      "active:bg-teal-400"
+    ],
+    "secondary": [
+      "text-teal-300",
+      "bg-white",
+      "shadow",
+      "hover:bg-teal-50",
+      "active:bg-[#146B67]",
+      "active:text-[#FCFCFC]"
+    ],
+    "success": [
+      "text-green-50",
+      "bg-green-600"
+    ],
+    "warning": [
+      "text-yellow-700",
+      "bg-yellow-200"
+    ],
+    "danger": [
+      "text-red-50",
+      "bg-red-600"
+    ]
+  },
+  "animation": [
+    "transition",
+    "delay-75",
+    "ease-in-out",
+    "hover:-translate-y-0.5"
+  ]
 }
